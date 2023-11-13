@@ -1,0 +1,14 @@
+{
+  "block.end_portal_frame.fill": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:block/end_portal/eyeplace2",
+        "stream": "false",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ],
+    "subtitle": "subtitles.block.end_portal_frame.fill"
+  }
+}

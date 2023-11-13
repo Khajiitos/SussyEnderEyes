@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "sussyendereyes",
+  "version": "${version}",
+  "name": "Sussy Ender Eyes",
+  "description": "Makes placing ender eyes in end portal frames play the Among Us drip melody.",
+  "authors": ["Khajiitos"],
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "client",
+  "contact": {
+    "homepage": "https://github.com/Khajiitos/SussyEnderEyes",
+    "sources": "https://github.com/Khajiitos/SussyEnderEyes",
+    "issues": "https://github.com/Khajiitos/SussyEnderEyes/issues"
+  },
+  "entrypoints": {
+    "client": [
+      "me.khajiitos.sussyendereyes.fabric.SussyEnderEyesFabric"
+    ]
+  },
+  "mixins": [
+    "sussyendereyes.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "~${minecraft_version_range}",
+    "java": ">=17"
+  }
+}

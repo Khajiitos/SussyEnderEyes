@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "MIT"
+issueTrackerURL = "https://github.com/Khajiitos/SussyEnderEyes/issues"
+
+[[mods]]
+modId = "sussyendereyes"
+version = "${version}"
+logoFile="icon.png"
+displayName = "Sussy Ender Eyes"
+authors = "Khajiitos"
+displayURL="https://github.com/Khajiitos/SussyEnderEyes"
+description = '''Makes placing ender eyes in end portal frames play the Among Us drip melody.'''
+displayTest = "IGNORE_ALL_VERSION"
+
+[[dependencies.sussyendereyes]]
+modId = "forge"
+mandatory = true
+versionRange = "${forge_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.sussyendereyes]]
+modId = "minecraft"
+mandatory = true
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"
