@@ -5,5 +5,7 @@ import net.minecraftforge.fml.common.Mod;
 
 @Mod(SussyEnderEyes.MOD_ID)
 public class SussyEnderEyesForge {
-    public SussyEnderEyesForge() {}
+    public SussyEnderEyesForge() {
+
+    }
 }
