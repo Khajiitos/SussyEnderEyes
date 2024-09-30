@@ -8,7 +8,7 @@ public class SussyEnderEyes {
     public static final Logger LOGGER = LoggerFactory.getLogger("Sussy Ender Eyes");
 
     public static int currentTuneStage = 0;
-    public static float[] melodyNotes = { 1.0f, 1.122462f, 1.259921f, 1.587401f, 1.259921f, 1.122462f, 1.0f, 0.8f, 1.159921f, 1.0f };
+    public static float[] melodyNotes = { 0.94f, 1.11f, 1.22f, 1.3f, 1.22f, 1.11f, 0.94f, 0.87f, 1.05f, 0.94f };
 
     public static long lastTimePlayed = 0;
 }
